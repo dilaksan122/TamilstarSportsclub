@@ -1,0 +1,104 @@
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Table Styles */
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #f9f9f9;
+}
+
+.table th,
+.table td {
+    text-align: left;
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Image Styles */
+.table img {
+    border-radius: 8px;
+}
+
+/* Button Styles */
+.btn {
+    padding: 10px 20px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border: none;
+    color: #fff;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+    color: #fff;
+}
+
+/* Hover Effects */
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+/* Pagination Styles */
+.pagination {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.pagination li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.pagination li a {
+    color: #007bff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+.pagination li a:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Active Pagination Link */
+.pagination .active span {
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+}

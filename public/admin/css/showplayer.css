@@ -1,0 +1,49 @@
+.player-details {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    text-align: center;
+}
+
+.player-info p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+.player-info img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.player-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.player-actions .btn {
+    flex: 1;
+    margin: 0 10px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.player-actions .btn:hover {
+    transform: translateY(-2px);
+}

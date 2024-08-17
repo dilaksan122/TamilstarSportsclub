@@ -1,0 +1,95 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Buttons */
+.btn {
+    padding: 8px 15px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 4px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.btn-add {
+    background-color: #28a745;
+}
+
+.btn-add:hover {
+    background-color: #218838;
+}
+
+.btn-edit {
+    background-color: #ffc107;
+}
+
+.btn-edit:hover {
+    background-color: #e0a800;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+}
+
+.btn-delete:hover {
+    background-color: #c82333;
+}
+
+/* Table Styles */
+.players-table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.players-table th,
+.players-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.players-table th {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.players-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.players-table tr:hover {
+    background-color: #e9ecef;
+}
+
+/* Player Name Link */
+.player-name {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.player-name:hover {
+    text-decoration: underline;
+}

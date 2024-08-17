@@ -1,0 +1,23 @@
+/* showgallery.css */
+
+.gallery-details img {
+    max-width: 100%; /* Make image responsive */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.gallery-details p {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+    color: white;
+}
