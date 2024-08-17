@@ -11,10 +11,7 @@ class VideoApiController extends Controller
     public function view()
     {
         $video=Video::all();
-        if(!$video)
-        {
-            return response()->json(["message","data not found"],404);
-        }
+        
 
         return response()->json($video);
     }

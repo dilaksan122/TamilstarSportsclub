@@ -21,9 +21,7 @@ class EventApiController extends Controller
         $event = Event::with('matchFeatures')->find($id);
         if ($event) {
             return response()->json($event);
-        } else {
-            return response()->json(['message' => 'Event not found'], 404);
-        }
+        } 
     }
     public function getAllMatchFeatures()
     {
